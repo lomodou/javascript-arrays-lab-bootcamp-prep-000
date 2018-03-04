@@ -28,3 +28,8 @@ function appendKitten(name) {
   return newKitten;
 }
 
+function prependKitten(name) {
+  var newKitten = [...kittens];
+  newKitten.unshift(name)
+  return newKitten;
+}
