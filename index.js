@@ -22,4 +22,9 @@ function destructivelyRemoveFirstKitten() {
   return kittens;
 }
 
-function 
+function appendKitten(name) {
+  var newKitten = [...kittens];
+  newKitten.push(name)
+  return newKitten;
+}
+
